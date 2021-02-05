@@ -1,0 +1,13 @@
+body {
+    background-color: #ccc;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    width: 25%;
+    float: left;
+}
