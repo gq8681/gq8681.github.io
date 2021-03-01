@@ -21,11 +21,11 @@ img {
 
 /* Style rules for header */
 header {
-    background-color: #000;
-    height: 190px;
     position: -webkit-sticky;
     position: sticky;
-    top: 0px;
+    top: 0;
+    background-color: #000;
+    height: 190px;
 
 }
 
@@ -35,22 +35,22 @@ header img {
 
 
 nav {
-    padding:1%;
+    padding: 1%;
     margin-bottom: 1%;
 }
 
 nav ul {
         list-style-type: none;
-        text-align: center; 
+        margin: 0;
+        text-align: right;
 }
-
 
 
 
 
 nav li {
         font-size: 1.5em;
-        font-family: "Francois One", sans-serif;
+        font-family: 'Francois One', sans-serif;
         border-top: 1px solid #fff;
 }
 
@@ -79,9 +79,10 @@ main {
     background-color: #fff;
     padding: 2%;
     font-size: 1.15em;
-    font-family: "Roboto Slab, serif";
+    font-family: 'Roboto Slab', sans-serif;
     }
 
+    
     .tel-link{
         background-color: #404040;
         padding: 2%;
@@ -125,7 +126,6 @@ main {
     }
 
     #contact .contact-email-link {
-        text-align: center;
         color: #666600;
         text-decoration: none;
     }
